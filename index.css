@@ -1,0 +1,47 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  padding: 20px;
+}
+
+/* App container */
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+/* Cards container */
+.app-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Message Card styles */
+.message-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  width: 260px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message-card h3 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.message-card p {
+  color: #555;
+  font-size: 14px;
+}
